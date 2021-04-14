@@ -32,7 +32,6 @@ const connect = (host, port) => {
 			if (message === END) {
 				socket.end();
 				console.log("Disconnected");
-				process.exit(0);
 			}
 		});
 
